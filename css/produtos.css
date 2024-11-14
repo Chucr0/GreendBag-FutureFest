@@ -1,0 +1,60 @@
+/* Reset de estilo básico */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais */
+body {
+    font-family: 'Lilita One', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+a {
+    color: #60803D; /* Verde escuro */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9FD863; /* Verde claro */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #60803D; /* Verde escuro */
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #9FD863 !important; /* Verde claro */
+}
+
+.dropdown-menu {
+    background-color: #9FD863; /* Verde claro */
+}
+
+.dropdown-item:hover {
+    background-color: #60803D; /* Verde escuro */
+    color: #fff;
+}
+
+/* Header */
+header {
+    background-color: #60803D; /* Verde escuro */
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+}
